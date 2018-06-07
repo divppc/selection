@@ -37,7 +37,7 @@ window.addEventListener("load", function() {
     "<li><a href='' class='selection-twitter'>" +
     twIcon +
     "</a></li>" +
-    "<li><a href=' class='selection-facebook'>" +
+    "<li><a href='' class='selection-facebook'>" +
     fbIcon +
     "</a></li>" +
     "<li><a href='' class='selection-linkedin'>" +
