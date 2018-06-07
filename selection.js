@@ -11,10 +11,7 @@ window.addEventListener("load", function() {
   document.body.addEventListener("mouseup", function(e) {
     var selectionPositionX = e.pageX - 20;
     var selectionPositionY = e.pageY - 60;
-    if (
-      window.getSelection().toString().length !== 0
-      && document.querySelector("main > article")
-    ) {
+    if (window.getSelection().toString().length !== 0) {
       selectedString = window.getSelection().toString();
       selectionContainer.style =
         "position: absolute;opacity: 1000; visibility: visible;top:" +
